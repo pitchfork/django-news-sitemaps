@@ -2,11 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'django-news-sitemaps',
-    version = '0.1.7',
+    version = '0.2.0',
     description = 'Generates sitemaps compatible with the Google News schema',
-    author = 'TWT Web Devs',
-    author_email = 'webdev@washingtontimes.com',
-    url = 'http://github.com/washingtontimes/django-news-sitemaps/',
+    author = 'Pitchfork (forked from TWT Web Devs)',
+    author_email = 'dev@pitchfork.com',
+    url = 'http://github.com/pitchfork/django-news-sitemaps/',
     include_package_data = True,
     packages = find_packages(),
     classifiers = [
